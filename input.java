@@ -41,9 +41,11 @@ public class input{
         System.out.println(name);
         System.out.println(number);
         System.out.println(intiger);
-        
+
     }
 }
+
+
 
 
 

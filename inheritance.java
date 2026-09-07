@@ -15,6 +15,7 @@ public class inheritance{
 
     }
 
+
     static class biral extends dog{
         void nache(){
             System.out.println("ei shalay nache o");

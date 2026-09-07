@@ -13,8 +13,6 @@ class dog extends animal{
 
 
 
-
-
 public class override{
     public static void main(String[] args){
         

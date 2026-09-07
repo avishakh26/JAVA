@@ -14,8 +14,6 @@ public class methodoverride{
     }
 
 
-
-
     public static void main(String[] args){
 
         dog s = new dog();

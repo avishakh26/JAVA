@@ -15,14 +15,21 @@ public class inheritance{
 
     }
 
+    static class biral extends dog{
+        void nache(){
+            System.out.println("ei shalay nache o");
+        }
+    }
+
 
 
     public static void main(String[] args){
 
-        dog d = new dog();
+        biral d = new biral();
 
         d.eat();
         d.daka();
+        d.nache();
 
     }
 

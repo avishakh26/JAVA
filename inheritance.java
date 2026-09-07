@@ -1,12 +1,12 @@
 public class inheritance{
 
-    public class animal{
+    static class animal{
         void eat(){
             System.out.println("Kuttay khay");
         }
     }
 
-    public class dog extends animal{
+    static class dog extends animal{
 
         void daka(){
             System.out.println("Kuttay dake o");
@@ -22,7 +22,7 @@ public class inheritance{
         dog d = new dog();
 
         d.eat();
-        d.dake();
+        d.daka();
 
     }
 

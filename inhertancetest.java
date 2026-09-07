@@ -14,14 +14,21 @@ public class inhertancetest{
  
     }
 
+    static class Piano extends Guitar{
+        void play(){
+            System.out.println("It's sounds good too");
+        }
+    }
+
 
 
     public static void main(String[] args){
 
-        Guitar g = new Guitar();
+        Piano g = new Piano();
 
         g.sound();
         g.sence();
+        g.play();
 
 
     }
